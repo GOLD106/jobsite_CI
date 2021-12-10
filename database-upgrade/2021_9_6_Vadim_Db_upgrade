@@ -1,0 +1,19 @@
+/*Career Table Create
+ 2021-09-05 Vadim
+
+  */
+
+
+create table `career_ta` (
+	`id` int (10),
+	`name` varchar (30),
+	`email` varchar (30),
+	`country_code` varchar (60),
+	`phone_number` varchar (60),
+	`skill_name` varchar (120),
+	`user_address` varchar (90),
+	`appling_as` varchar (60),
+	`upload_file` varchar (90),
+	`service_id` varchar (60),
+	`created_date` varchar (90)
+); 

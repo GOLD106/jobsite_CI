@@ -1,0 +1,51 @@
+
+.cleaning-detail-text {
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.more-blogs h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.s-blog-part {
+    position: relative;
+    margin-top: 40px;
+}
+.s-blog-part-text {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+.l-blog-part {
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.l-blog-part-text {
+    position: absolute;
+    bottom: 0;
+    left: 125px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+
+}
+.cleaning-customer-logos {
+    margin-top: 40px;
+}
+.cleaning-customer-logos img {
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+
+.time-clock {
+    background-color: #6F2E79;
+    height: 200px;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+.breadcrumb-title h2 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.breadcrumb-text {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.highlight {
+    color: #6D2C77;
+    
+}

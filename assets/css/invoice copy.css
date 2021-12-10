@@ -1,0 +1,320 @@
+body{margin-top:20px;
+    background-color: #f7f7ff;
+    }
+    #invoice {
+        padding: 0px;
+    }
+    
+    .invoice {
+        position: relative;
+        min-height: 680px;
+        padding: 15px
+    }
+    
+    .invoice header {
+      
+        margin-bottom: 20px;
+        
+    }
+    
+    .invoice .company-details {
+        text-align: right
+    }
+    
+    .invoice .company-details .name {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+    
+    .invoice .contacts {
+        margin-bottom: 20px
+    }
+    
+    .invoice .invoice-to {
+        text-align: left
+    }
+    
+    .invoice .invoice-to .to {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+    
+    .invoice .invoice-details {
+        text-align: right
+    }
+    
+    .invoice .invoice-details .invoice-id {
+        margin-top: 0;
+        color: #0d6efd
+    }
+    
+    
+    
+    .invoice main .thanks {
+        margin-top: -70px;
+        font-size: 25px;
+        display: inline-flex;
+        background: white;
+        padding-bottom: 20px;
+        
+    }
+
+    .invoice main .thanks img {
+        margin-left:30px;
+    }
+    
+ 
+    
+    .invoice main .notices .notice {
+        font-size: 1.2em
+    }
+    
+    .invoice table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 20px
+    }
+    
+    .invoice table td,
+    .invoice table th {
+        padding: 15px;
+    /*    background: #eee;  */
+        border-bottom: 1px solid grey
+    }
+    
+    .invoice table th {
+        white-space: nowrap;
+        font-weight: 400;
+        font-size: 16px
+    }
+    
+    .invoice table td h3 {
+        margin: 0;
+        font-weight: 400;
+        color: #0d6efd;
+        font-size: 1.2em
+    }
+    
+    .invoice table .qty,
+    .invoice table .total,
+    .invoice table .unit {
+        text-align: right;
+        font-size: 1.2em;
+        width: 15%;
+        
+    }
+    
+    .invoice table .no {
+        
+        font-size: 1.6em;
+        background: #EDEFEC;
+        color: #545454;
+    }
+    
+    .invoice table .unit {
+        background: #EDEFEC;
+        color: #545454;
+    }
+    
+    .invoice table .total {
+        background: #EDEFEC;
+        color: #545454;
+       
+    }
+    
+    .invoice table tbody tr:last-child td {
+        border: none
+    }
+    
+    .invoice table tfoot td {
+        background: 0 0;
+        border-bottom: none;
+        white-space: nowrap;
+        text-align: right;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        border: none;
+    }
+
+    .invoice table tfoot td span {
+        font-weight: bold;
+    }
+    
+    .invoice table tfoot tr:first-child td {
+        border-top: none
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0px solid rgba(0, 0, 0, 0);
+        border-radius: .25rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+        background: url('/assets/img/invoice/invoice_background.jpg') no-repeat;     
+        background-size: cover;	
+    }
+    
+    .invoice table tfoot tr:last-child td {
+        color: #f0f1f3;
+        font-size: 1.4em;
+        background-color: #562B63;
+    }
+    
+    .invoice table tfoot tr td:first-child {
+        border: none;
+        background: white;
+    }
+    
+    .invoice footer {
+        width: 100%;
+        /* text-align: center; */
+        color: #777;
+        /* border-top: 1px solid #aaa; */
+        padding: 36px 0;
+        display: flex;
+        background: white;
+    }
+    
+    @media print {
+        .invoice {
+            font-size: 11px !important;
+            overflow: hidden !important
+        }
+        .invoice footer {
+            position: absolute;
+            bottom: 10px;
+            page-break-after: always
+        }
+        .invoice>div:last-child {
+            page-break-before: always
+        }
+    }
+    
+    .invoice main .notices {
+        padding-left: 6px;
+        border-left: 6px solid #0d6efd;
+        background: #e7f2ff;
+        padding: 10px;
+    }
+
+    .unique-code {
+        display: block;
+        text-align: right;
+        margin-bottom: 10px;
+        margin-top: -20px;
+        color: white;
+        font-size: 12px;
+    }
+    .invoice-num {
+        text-align: right;
+    }
+    .billing-to-info {
+        display: flex;
+    }
+
+    .billing-label {
+        width: 50%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .billing-to-info span {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .billing-detail {
+        margin-left:30px;
+    }
+
+    thead {
+        background: #38C5F0;
+    }    
+    .sign-image  {
+        border-bottom: 1px solid grey;
+    }
+    .payment-info {
+        border: 7px solid #c2c2d6;
+        background: rgb(240, 236, 236);
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .payment-info h2 {
+        color:#562B63;
+        font-size: 25px;
+    }
+
+    .pay-info span {
+        display: block;
+        padding-top: 20px;
+        padding-left: 20px;
+        color:black;
+    }
+    .terms-info {
+        margin-top:30px;
+        width:80%;
+    }
+
+    .terms-info ul {
+        padding-top:30px;
+    }
+    .address-image {
+        width: 35px;
+        background: rebeccapurple;
+        border-radius: 50%;
+        height: 35px;
+        padding-top: 7px;
+        padding-left: 8px;
+    }
+
+    .address-info {
+        display: flex;
+        padding-left:15px;
+    }
+    .address-text {
+        padding-left: 15px;
+    }
+    .address-text span {
+        display: block;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .group-info {
+        padding-top:20px;
+    }
+
+    .group-info h3 {
+        text-align: center;
+        font-size: 25px;
+        color: rebeccapurple;;
+    }
+
+    .group-contact-info {
+        margin-top: 30px;
+        margin-left: 27px;
+    }
+    .thankyou-image {
+        text-align: center;
+        margin-top: 90px;
+    }
+    .invoice-num {
+        font-size: 20px;
+        /* padding-top: 49px; */
+        margin-top: 70px;
+    }
+
+    .invoice-num span {
+        font-weight: bold;
+        
+    }
+
+    .billing-to-info {
+        margin-top:40px;
+    }

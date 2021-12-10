@@ -1,0 +1,23 @@
+.solution-menu-image {
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #D5DDE3;
+    width: 32px;
+    height: 32px;
+    padding-left: 5px;
+}
+
+.nav-item span {
+    font-size: 13px; 
+    color: #949494; 
+    padding-left: 5px;
+}
+.solution-menu-block {
+    width:20%;
+    padding-left:20px;
+}
+
+.solution-row {
+    width: 100%;
+}
+

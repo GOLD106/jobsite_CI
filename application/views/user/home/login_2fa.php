@@ -1,0 +1,53 @@
+<?php
+    
+?>
+
+<div data-v-9cf711f2="" class="login-box container container--fluid" style="">
+    <div data-v-9cf711f2="" class="mx-auto my-12 logincard v-card v-sheet theme--light">
+        <div data-v-9cf711f2="" class="card-left" style="background-image: url(&quot;<?=base_url();?>assets/img/<?=TEMPLATE_THEME?>/logo.png&quot;),url(&quot;<?=base_url();?>assets/img/login/Path1.png&quot;);">
+            <h3 data-v-9cf711f2="" style="margin-top: 35%;">Welcome To TazzerGroup</h3>
+            <p data-v-9cf711f2="">We provide safe vehicles and professional experts, which means you can expect a first class, reliable service.Call TazzerGroup today</p>
+            <img data-v-9cf711f2="" alt="" src="<?=base_url()?>assets/img/login/login5.47298d50.png" transition="scale-transition" style="width: 80%;"></div>
+        <div data-v-9cf711f2="" class="card-right" style="background-image: url(&quot;<?=base_url();?>assets/img/<?=TEMPLATE_THEME?>/logo.png&quot;),url(&quot;<?=base_url();?>assets/img/login/Path1.png&quot;);">
+            <div data-v-9cf711f2="" class="v-card__title">
+                <div data-v-9cf711f2="" class="row mt-15 align-left justify-left" style="padding: 10px 8%;">
+                    <h2 data-v-9cf711f2="" class="card-title">Two Factor Authentication</h2></div>
+            </div>
+            <br data-v-9cf711f2="">
+            <div class="error-box">
+                <span id="error"></span>
+                <span id="mailid_error"></span>
+                <span for='otp_number' id='otp_error_msg_login'></span>
+                <span id="err_respwd"></span>
+            </div>
+            <div class="login-card-container">
+                <div class="form-group">
+                     <div class="row">
+                        <div class="col-12">
+                            <label>We have sent verification code to your email.</label>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="hidden" name="login_mode" id="login_mode" value="1">
+                            <input type="hidden" name="csrf_token_name" value="<?php echo $this->security->get_csrf_hash(); ?>" id="login_csrf">
+                            <input class="form-control" type="text" name="2fa_code" id="2fa_code" placeholder="Enter Verfication Code" >
+                        </div>
+                    
+                    </div>
+                </div>
+                <p class="user_forgot_pwd">You have not received the code? <a href="javascript:void(0)"  id="user_2fa_resend"> Resend</a></p>
+                <span id="info_res"></span>
+
+                <button class="login-btn" id="verify-2fa-btn" type="submit">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="<?php echo base_url();?>assets/css/home/login.css?v1.03">
+<script type="text/javascript">
+    var history_uri = "<?php echo $history_uri;?>";
+</script>
+<script src="<?php echo base_url(); ?>assets/js/login_2fa.js?v1.03"></script>

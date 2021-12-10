@@ -1,0 +1,41 @@
+
+.banner-image {
+    text-align: center;
+}
+.get-price-content {
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #b1b4b5;
+   
+    width: 65%;
+    margin: auto;
+}
+
+.get-price-content h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 15px;
+    color: white;
+    background-color: #6d2c77;
+}
+
+.table-striped thead {
+    font-size: 18px;
+}
+.close-button-r {
+    text-align: center;
+    padding-top: 20px;
+}
+.back-button-r {
+    border: 0;
+    background-color: #6d2c77;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px 31px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    color:white;
+
+}

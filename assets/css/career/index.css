@@ -1,0 +1,310 @@
+/* Career Page   */
+
+.career_banner  {
+	background: url('/assets/img/career/career_banner.png') no-repeat;
+	/*	-webkit-mask-image: url('/assets/img/career/mask_image.png') ;  */
+	padding: 10vw;
+   background-size: cover;	
+   position: relative;
+}
+
+.career_banner .banner_mask {
+	background-color: #2d2e2f;
+	opacity: 0.45;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+.career-title {
+	text-align: center;
+	color: white;
+}
+
+.career-meeting-banner {
+	background: url('/assets/img/career/career_meeting.png') no-repeat;
+	/* padding: 20vw; */
+    background-size: 100%;	
+	margin-top:30px;
+	height: 450px;
+}
+
+.career_adventure {
+	background-color: white;
+    position: absolute;
+    text-align: center;
+    /* top: 27%; */
+    left: 55%;
+    width: 305px;
+    height: 250px;
+    padding-top: 33px;
+    margin-top: 8%;
+}
+.your-adventure {
+	margin-top: 14px;
+    margin-bottom: 30px;
+	font-size:25px;
+}
+.search_opportunities {
+	border: 0;
+    background-color: #6c2c78;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    width: 73%;
+    margin: auto;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+
+.shot-title {
+	font-size: 13px;
+
+}
+.h2-title {
+	color: #5E2667;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.career-content {
+	margin-top:20px;
+	margin-bottom:11px;
+	padding-left:11%;
+}
+
+.p-text {
+	font-size:14px;
+}
+
+
+
+.career-banner2 {
+	background: url('/assets/img/career/career-banner2.png') no-repeat;
+	padding: 17vw;
+    background-size: cover;	
+}
+
+.opportunity-image-control {
+	margin-left:12% ;
+}
+
+.opportunity-image {
+	background: url('/assets/img/career/opport_image.png') no-repeat;
+	padding: 13vw;
+    background-size: cover
+}
+
+.career-team  {
+	background: url('/assets/img/career/career_team_banner.png') no-repeat;
+/*	-webkit-mask-image: url('/assets/img/career/mask_image.png') ; */
+
+	padding: 13vw;
+    background-size: cover;	
+}
+
+.career-team-section {
+	position: relative;
+}
+
+.career-team-section .section-mask {
+	background-color: #2d2e2f;
+	opacity: 0.45;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+.career-select {
+	border-color: #dcdcdc;
+    color: #333;
+    font-size: 15px;
+    min-height: 30px;
+    padding: 6px 15px;
+	width:85%;
+	margin-bottom:20px;
+}
+
+.h3-title {
+	font-size: 20px;
+	color:#5E2667;
+}
+.service-list {
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+.service-list li {
+	padding-top:5px;
+	font-size:15px;
+}
+
+.load-more {
+	margin-top:20px;
+	color : #5E2667;
+	font-size:15px;
+}
+
+.featured-role {
+	border-left: #727c8e solid 1px;
+	padding-left:20px;
+	overflow: scroll;
+	height: 500px;
+}
+
+.detail-info-title {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.info-overview {
+	display: inline-block;
+    /* min-height: 40px; */
+    background: #6D2C77;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 120px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.apply-job {
+	display: inline-block;
+    /* min-height: 40px; */
+    background: rgb(235, 228, 228);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.info-overview_1 {
+	display: inline-block;
+    /* min-height: 40px; */
+    background:rgb(235, 228, 228) ;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 120px;
+   
+    text-align: center;
+    font-size: 15px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.apply-job_1 {
+	display: inline-block;
+    /* min-height: 40px; */
+    background: #6D2C77 ; 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 15px;
+	color: white;
+}
+.full_width_div {
+	width:100%;
+}
+.apply_button {
+	background-color: #6D2C77;
+    color: white;
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    padding-top: 10px;
+    display: inline-block;
+} 
+
+.apply_button_div {
+	width:100%;
+	text-align :center;
+	margin-top:80px;
+}
+
+.ul_livesmarter {
+   list-style: url('/assets/img/career/check.png');	
+
+}
+.ul_livesmarter li {
+	padding: 5px;
+}
+
+.ul_qualifications {
+	list-style: url('/assets/img/career/ellipse.png');	
+}
+
+.ul_qualifications li {
+	padding:5px;
+}
+
+.asterisk:after {
+	content:"* ";
+	color:red;
+}
+
+.form-control.required:after {
+	content:"* ";
+	color:red;
+}  
+
+.career_apply_tite {
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.apply_side_image {
+	background: url('/assets/img/career/apply_job_image.png') no-repeat;
+	padding: 20vw;
+    background-size: cover;	
+	opacity:1;
+
+}
+
+@media only screen and (max-width: 575.98px) {
+	.career_adventure {
+		background-color: white;
+		position: absolute;
+		text-align: center;
+		/* top: 27%; */
+		left: 10%;
+		width: 305px;
+		height: 250px;
+		padding-top: 33px;
+		margin-top: 46%;
+		margin-bottom: 22px;
+	}
+}
+
+@media only screen and (max-width: 767.98px) {
+	.career_adventure {
+		background-color: white;
+		position: absolute;
+		text-align: center;
+		/* top: 27%; */
+		left: 29%;
+		width: 305px;
+		height: 250px;
+		padding-top: 33px;
+		margin-top: 42%;
+	}
+}

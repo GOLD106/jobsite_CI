@@ -1,0 +1,423 @@
+
+.blog-banner {
+    background: url(/assets/img/teamcollab/blog/blog_banner.png) no-repeat;
+    padding: 15vw;
+    background-size: cover;
+}
+
+.blog-stories  {
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+.blog-stories p {
+    margin-top: 20px;
+}
+.story-header h2 {
+    float: left;
+}
+.story-header span {
+    float:right;
+}
+
+.top-story-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.top-image-box img {
+    transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.16);
+}
+.top-story-tag {
+    width: 90px;
+    color: white;
+    background-color: #6D2C77;
+    font-size: 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 58px;
+    left: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+.top-story-title-box {
+    background-color: #707070;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.top-story-title-box h2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.top-story-title-mini {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top-story-title-mini img {
+    margin-left: 20px;
+    
+}
+.top-story-title-mini span {
+    padding-left: 10px;
+}
+
+
+.header-stroy-tag {
+    width: 90px;
+    color: white;
+    background-color: #E30D0D;
+    font-size: 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.top-story-title-box h3 {
+    color: white;
+    padding-top:30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.story-header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.story-header .highlight {
+    width:50%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.right-all {
+    width:50%;
+    text-align: right;
+    color: black;
+    text-decoration: underline;
+}
+
+
+/*  search bar */
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.search-part {
+    margin-top:30px;
+}
+
+.form-group .has-search {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.blog-detail-part {
+    border: solid 1px #ECECEC ;
+    padding: 10px 10px;
+    box-shadow: snow;
+}
+
+.blog-detail-part img {
+    width: 100%;
+}
+
+.blog-detail-title {
+    display: flex;
+    margin-top: 11px;
+}
+.title-name {
+    background-color: #E69898;
+    color: #FF0000;
+    font-size: 12px;
+    padding: 4px 4px 4px 4px;
+}
+.blog-date {
+    padding-left:60px;
+    padding-top: 4px;
+}
+
+.blog-detail-part h2 {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.blog-list {
+    margin-top: 30px;
+
+}
+
+.case-study-banner {
+    background: url(/assets/img/teamcollab/case_study/case-story-banner.png) no-repeat;
+    padding: 15vw;
+    background-size: cover;
+}
+
+.case-study-tag.active {
+    color: white;
+    background-color: #6D2C77;
+    font-size: 14px;
+    border-radius: 23px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.case-study-tag {
+    color: #818181;
+    font-size: 14px;
+    border-radius: 23px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 1px #818181;
+}
+
+.case-detail-part {
+    border: solid 1px #ECECEC ;
+    padding: 13px 13px;
+    box-shadow: snow;
+    border-radius: 10px;
+}
+
+.case-detail-part img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.case-detail-part ul {
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+.case-study-list {
+    background-color: #F9FCFE;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-us-banner {
+    background: url(/assets/img/teamcollab/contact_us/contact_us_banner.png) no-repeat;
+    padding: 15vw;
+    background-size: cover;
+}
+.contact-us-content {
+    margin-top:40px;
+}
+.contact-us-form {
+   border-radius: 10px;
+   box-shadow: 0 0 20px #b1b4b5 ;
+   padding-top:20px;
+}
+.contact-form-part {
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 26px;
+}
+.contact-form-part .form-row {
+    border-radius: 10px;
+    margin-top:30px;
+    padding-left:30px;
+} 
+.contact-us-form h3 {
+    margin-top: 20px;
+    padding-left: 38px;
+}
+
+.contact-us-form p {
+    padding-left:35px;
+    padding-top:10px;
+}
+
+.submit-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-detail-image {
+    background-color: rebeccapurple;
+    width: 38px;
+    height: 38px;
+    border-radius: 38px;
+    padding-top: 7px;
+    padding-left: 9px;
+}
+
+.contact-info-detail span {
+    padding-left: 30px;
+    padding-top:3px ;
+    font-size: 16px;
+
+}
+
+.contact-info-detail {
+    display: inline-flex;
+    margin-top:30px;
+
+}
+.contact-info-right {
+    padding-top: 40px;
+    padding-left:70px;
+}
+
+.help-content {
+    display: flex;
+    margin: auto;
+    box-shadow: 0 0 20px #b1b4b5 ;
+    margin-top: 30px;
+    padding-left:20px;
+    padding-right:40px;
+    padding-bottom: 20px;
+}
+
+.content-image {
+    padding-right:25px;
+    padding-left:20px;
+    margin-top: 25px;
+}
+
+.help-content-text h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.help-text-detail {
+    display: flex;
+    margin-top:5px;
+}
+.help-text-detail p {
+    margin:0px;
+    padding-left: 10px;
+}
+
+.help-text-detail span {
+    font-weight: 600;
+}
+
+
+
+.help-search-form {
+    position: relative
+}
+
+.help-search-form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.help-search-form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+    padding-left: 7px
+}
+
+.left-pan i {
+    padding-left: 10px
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+.help-search-bar {
+    margin-top: -20px;
+}
+
+.hr-template {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hr-template h1 {
+    font-weight: 700;
+}
+
+.template-list-detail {
+
+    box-shadow: 0 0 20px #b1b4b5;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    border-left: solid 6px #6D2C77;
+}
+
+.template-list-detail h3 {
+    margin-bottom: 12px;
+}
+.template-list-detail p {
+    margin-bottom: 0px;
+}
+.template-list-detail a {
+    float: right;
+}
+
+.template-list-part {
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
